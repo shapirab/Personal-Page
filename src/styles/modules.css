@@ -1,0 +1,36 @@
+/* buttons */
+.btn{
+    padding: 0.5rem 1.3rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.btn--primary{
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.btn--primary:hover{
+    background-color: var(--primary-color-hover);
+}
+
+.btn--secondary{
+    background-color: var(--secondary-background);
+    color: #fff;
+    transition: 0.2s;
+}
+.btn--secondary:hover{
+    background-color: var(--secondary-background-hover);
+}
+
+.btn--default{
+    background-color: #fff;
+    transition: 0.2s;
+}
+.btn--default:hover{
+    background-color: #eee;
+}
