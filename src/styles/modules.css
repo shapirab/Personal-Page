@@ -70,3 +70,24 @@
     color: #fff;
 }
 
+/* nav */
+.nav__content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav__content-item a{
+    color: var(--text-gray);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.nav__content-item a:hover{
+    color:#fff;
+}
+
+.nav__content-item a.active{
+    color:#fff;
+}

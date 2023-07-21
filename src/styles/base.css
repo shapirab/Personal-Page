@@ -5,6 +5,7 @@
     --primary-color-hover: rgba(77, 149, 181, 0.78);
     --secondary-background: #8BC34A;
     --secondary-background-hover: #77a73f;
+    --text-gray: #ccc;
 }
 
 body, html{
