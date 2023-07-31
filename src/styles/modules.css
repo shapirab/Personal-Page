@@ -1,3 +1,8 @@
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
 /* buttons */
 .btn{
     padding: 0.5rem 1.3rem;
@@ -76,9 +81,8 @@
     padding: 1rem 0; 
 }
 
-.nav--container{
-    max-width: 1024px;
-    margin: auto;
+.container--nav{
+    
 }
 
 .nav__header{
@@ -112,4 +116,37 @@
 
 .nav__content-item a.active{
     color:#fff;
+}
+
+/* About */
+.about__header{
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    font-size: 3.5rem;
+}
+
+.about__body__image{
+   margin-top: 4rem;
+}
+
+.about__body__image img{
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 0;
+}
+
+.about__body__text p{
+    font-family: inherit;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.about__body__text h3{
+    font-size: 2rem;
+    font-weight: 400;
 }
