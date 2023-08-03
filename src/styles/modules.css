@@ -139,15 +139,6 @@
 }
 
 /* About */
-.about__header{
-    /* text-transform: uppercase;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-    font-size: 3.5rem; */
-}
-
 .about__body__image{
    margin-top: 4rem;
 }
@@ -169,4 +160,28 @@
 .about__body__text h3{
     font-size: 2rem;
     font-weight: 400;
+}
+
+/* Contact */
+.contact{
+    background-color: #777;
+    padding: 2rem;
+}
+
+.contact__header{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.contact__btn{
+    width: fit-content;
+    height: fit-content;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+}
+
+.contact__body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
