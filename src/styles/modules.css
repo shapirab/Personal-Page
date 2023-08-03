@@ -2,6 +2,23 @@
     max-width: 1170px;
     margin: auto;
 }
+/* headers */
+.header{   
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    font-size: 3.5rem;
+}
+
+.header--portfolio{
+   flex-direction: column; 
+   align-items: center;
+}
+
+.header-text{
+    text-transform: uppercase;
+    font-weight: 600;
+}
 
 /* buttons */
 .btn{
@@ -75,6 +92,9 @@
     color: #fff;
 }
 
+/* portfolio */
+
+
 /* nav */
 .nav{
     background-color: #000; 
@@ -120,12 +140,12 @@
 
 /* About */
 .about__header{
-    text-transform: uppercase;
+    /* text-transform: uppercase;
     font-weight: 600;
     display: flex;
     justify-content: center;
     margin-top: 0;
-    font-size: 3.5rem;
+    font-size: 3.5rem; */
 }
 
 .about__body__image{
