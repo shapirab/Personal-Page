@@ -185,3 +185,38 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+/* Hero */
+.hero{
+    background-image: url("https://images.unsplash.com/7/Top_view.jpg?fit=crop&fm=jpg&h=700&ixjsv=2.0.0&ixlib=rb-0.3.5&q=80&w=1375");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__heading{
+    color: #fff;
+    margin: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero__content{
+    color: #fff;
+    font-size: 1.5rem; 
+    margin: 0;
+    margin-bottom: 80px;
+}
+
+.hero__btn--container .btn:not(:first-child){
+    margin-left: 5px;
+}
