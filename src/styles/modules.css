@@ -93,7 +93,9 @@
 }
 
 /* portfolio */
-
+.portfolio{
+    margin: 1.5rem auto;
+}
 
 /* nav */
 .nav{
@@ -139,6 +141,11 @@
 }
 
 /* About */
+.about{
+    height: 100vh;
+    margin-top: 2.5rem;
+}
+
 .about__body__image{
    margin-top: 4rem;
 }
@@ -164,8 +171,8 @@
 
 /* Contact */
 .contact{
-    background-color: #777;
-    padding: 2rem;
+    background-color: #333;
+    padding: 0.5rem;
 }
 
 .contact__header{
