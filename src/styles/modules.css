@@ -220,3 +220,13 @@
 .hero__btn--container .btn:not(:first-child){
     margin-left: 5px;
 }
+
+/* footer */
+.nav--footer{
+    display: flex;
+    justify-content: center;
+}
+
+.nav--footer .nav__content li{
+    margin-left: 1rem;
+}
