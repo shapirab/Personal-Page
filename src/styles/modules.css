@@ -140,6 +140,12 @@
     color:#fff;
 }
 
+.nav__btn{
+    display: none;
+    font-size: 1.5rem;
+    float: right;
+}
+
 /* About */
 .about{
     height: 100vh;
@@ -236,4 +242,49 @@
 
 .nav--footer .nav__content li{
     margin-left: 1rem;
+}
+
+
+
+@media(max-width:900px){
+    .nav{
+        padding: 0.5rem 1.5rem;
+    }
+
+    .about{
+        height: 100%;
+    }
+
+    .nav__content{
+        flex-direction: column;
+    }
+
+    .nav__content *{
+        margin-bottom: 1rem;
+    }
+
+    .nav__btn{
+        display: inline;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .hero__btn--container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        min-width: 200px;
+    }
+
+    .hero__heading{
+        margin: 0;
+        text-align: center;
+    }
+
+    .hero__content{
+        text-align: center;
+    }
 }
